@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3C49442BC361D800E4623C /* ShutterLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C49432BC361D800E4623C /* ShutterLogApp.swift */; };
+		AB3C49462BC361D800E4623C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C49452BC361D800E4623C /* ContentView.swift */; };
+		AB3C49482BC361D800E4623C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C49472BC361D800E4623C /* Item.swift */; };
+		AB3C494A2BC361D800E4623C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3C49492BC361D800E4623C /* Assets.xcassets */; };
+		AB3C494D2BC361D800E4623C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3C494C2BC361D800E4623C /* Preview Assets.xcassets */; };
+		AB3C49572BC361D800E4623C /* ShutterLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C49562BC361D800E4623C /* ShutterLogTests.swift */; };
+		AB3C49612BC361D800E4623C /* ShutterLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C49602BC361D800E4623C /* ShutterLogUITests.swift */; };
+		AB3C49632BC361D800E4623C /* ShutterLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C49622BC361D800E4623C /* ShutterLogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3C49532BC361D800E4623C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3C49382BC361D800E4623C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3C493F2BC361D800E4623C;
+			remoteInfo = ShutterLog;
+		};
+		AB3C495D2BC361D800E4623C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3C49382BC361D800E4623C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3C493F2BC361D800E4623C;
+			remoteInfo = ShutterLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB3C49402BC361D800E4623C /* ShutterLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShutterLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3C49432BC361D800E4623C /* ShutterLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterLogApp.swift; sourceTree = "<group>"; };
+		AB3C49452BC361D800E4623C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB3C49472BC361D800E4623C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AB3C49492BC361D800E4623C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB3C494C2BC361D800E4623C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB3C49522BC361D800E4623C /* ShutterLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3C49562BC361D800E4623C /* ShutterLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterLogTests.swift; sourceTree = "<group>"; };
+		AB3C495C2BC361D800E4623C /* ShutterLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3C49602BC361D800E4623C /* ShutterLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterLogUITests.swift; sourceTree = "<group>"; };
+		AB3C49622BC361D800E4623C /* ShutterLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3C493D2BC361D800E4623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3C494F2BC361D800E4623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3C49592BC361D800E4623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3C49372BC361D800E4623C = {
+			isa = PBXGroup;
+			children = (
+				AB3C49422BC361D800E4623C /* ShutterLog */,
+				AB3C49552BC361D800E4623C /* ShutterLogTests */,
+				AB3C495F2BC361D800E4623C /* ShutterLogUITests */,
+				AB3C49412BC361D800E4623C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3C49412BC361D800E4623C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3C49402BC361D800E4623C /* ShutterLog.app */,
+				AB3C49522BC361D800E4623C /* ShutterLogTests.xctest */,
+				AB3C495C2BC361D800E4623C /* ShutterLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3C49422BC361D800E4623C /* ShutterLog */ = {
+			isa = PBXGroup;
+			children = (
+				AB3C49432BC361D800E4623C /* ShutterLogApp.swift */,
+				AB3C49452BC361D800E4623C /* ContentView.swift */,
+				AB3C49472BC361D800E4623C /* Item.swift */,
+				AB3C49492BC361D800E4623C /* Assets.xcassets */,
+				AB3C494B2BC361D800E4623C /* Preview Content */,
+			);
+			path = ShutterLog;
+			sourceTree = "<group>";
+		};
+		AB3C494B2BC361D800E4623C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB3C494C2BC361D800E4623C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB3C49552BC361D800E4623C /* ShutterLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3C49562BC361D800E4623C /* ShutterLogTests.swift */,
+			);
+			path = ShutterLogTests;
+			sourceTree = "<group>";
+		};
+		AB3C495F2BC361D800E4623C /* ShutterLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3C49602BC361D800E4623C /* ShutterLogUITests.swift */,
+				AB3C49622BC361D800E4623C /* ShutterLogUITestsLaunchTests.swift */,
+			);
+			path = ShutterLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3C493F2BC361D800E4623C /* ShutterLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3C49662BC361D800E4623C /* Build configuration list for PBXNativeTarget "ShutterLog" */;
+			buildPhases = (
+				AB3C493C2BC361D800E4623C /* Sources */,
+				AB3C493D2BC361D800E4623C /* Frameworks */,
+				AB3C493E2BC361D800E4623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShutterLog;
+			productName = ShutterLog;
+			productReference = AB3C49402BC361D800E4623C /* ShutterLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3C49512BC361D800E4623C /* ShutterLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3C49692BC361D800E4623C /* Build configuration list for PBXNativeTarget "ShutterLogTests" */;
+			buildPhases = (
+				AB3C494E2BC361D800E4623C /* Sources */,
+				AB3C494F2BC361D800E4623C /* Frameworks */,
+				AB3C49502BC361D800E4623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3C49542BC361D800E4623C /* PBXTargetDependency */,
+			);
+			name = ShutterLogTests;
+			productName = ShutterLogTests;
+			productReference = AB3C49522BC361D800E4623C /* ShutterLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB3C495B2BC361D800E4623C /* ShutterLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3C496C2BC361D800E4623C /* Build configuration list for PBXNativeTarget "ShutterLogUITests" */;
+			buildPhases = (
+				AB3C49582BC361D800E4623C /* Sources */,
+				AB3C49592BC361D800E4623C /* Frameworks */,
+				AB3C495A2BC361D800E4623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3C495E2BC361D800E4623C /* PBXTargetDependency */,
+			);
+			name = ShutterLogUITests;
+			productName = ShutterLogUITests;
+			productReference = AB3C495C2BC361D800E4623C /* ShutterLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3C49382BC361D800E4623C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AB3C493F2BC361D800E4623C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AB3C49512BC361D800E4623C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB3C493F2BC361D800E4623C;
+					};
+					AB3C495B2BC361D800E4623C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB3C493F2BC361D800E4623C;
+					};
+				};
+			};
+			buildConfigurationList = AB3C493B2BC361D800E4623C /* Build configuration list for PBXProject "ShutterLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB3C49372BC361D800E4623C;
+			productRefGroup = AB3C49412BC361D800E4623C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3C493F2BC361D800E4623C /* ShutterLog */,
+				AB3C49512BC361D800E4623C /* ShutterLogTests */,
+				AB3C495B2BC361D800E4623C /* ShutterLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3C493E2BC361D800E4623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3C494D2BC361D800E4623C /* Preview Assets.xcassets in Resources */,
+				AB3C494A2BC361D800E4623C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3C49502BC361D800E4623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3C495A2BC361D800E4623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3C493C2BC361D800E4623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3C49462BC361D800E4623C /* ContentView.swift in Sources */,
+				AB3C49482BC361D800E4623C /* Item.swift in Sources */,
+				AB3C49442BC361D800E4623C /* ShutterLogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3C494E2BC361D800E4623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3C49572BC361D800E4623C /* ShutterLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3C49582BC361D800E4623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3C49612BC361D800E4623C /* ShutterLogUITests.swift in Sources */,
+				AB3C49632BC361D800E4623C /* ShutterLogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3C49542BC361D800E4623C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3C493F2BC361D800E4623C /* ShutterLog */;
+			targetProxy = AB3C49532BC361D800E4623C /* PBXContainerItemProxy */;
+		};
+		AB3C495E2BC361D800E4623C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3C493F2BC361D800E4623C /* ShutterLog */;
+			targetProxy = AB3C495D2BC361D800E4623C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB3C49642BC361D800E4623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB3C49652BC361D800E4623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3C49672BC361D800E4623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShutterLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheadoreLee.ShutterLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3C49682BC361D800E4623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShutterLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheadoreLee.ShutterLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB3C496A2BC361D800E4623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheadoreLee.ShutterLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShutterLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShutterLog";
+			};
+			name = Debug;
+		};
+		AB3C496B2BC361D800E4623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheadoreLee.ShutterLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShutterLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShutterLog";
+			};
+			name = Release;
+		};
+		AB3C496D2BC361D800E4623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheadoreLee.ShutterLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShutterLog;
+			};
+			name = Debug;
+		};
+		AB3C496E2BC361D800E4623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheadoreLee.ShutterLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShutterLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3C493B2BC361D800E4623C /* Build configuration list for PBXProject "ShutterLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3C49642BC361D800E4623C /* Debug */,
+				AB3C49652BC361D800E4623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3C49662BC361D800E4623C /* Build configuration list for PBXNativeTarget "ShutterLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3C49672BC361D800E4623C /* Debug */,
+				AB3C49682BC361D800E4623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3C49692BC361D800E4623C /* Build configuration list for PBXNativeTarget "ShutterLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3C496A2BC361D800E4623C /* Debug */,
+				AB3C496B2BC361D800E4623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3C496C2BC361D800E4623C /* Build configuration list for PBXNativeTarget "ShutterLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3C496D2BC361D800E4623C /* Debug */,
+				AB3C496E2BC361D800E4623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3C49382BC361D800E4623C /* Project object */;
+}
